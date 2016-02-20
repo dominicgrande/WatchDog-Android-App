@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WatchDogsControl/WatchDogsControl.iml" filepath="$PROJECT_DIR$/WatchDogsControl/WatchDogsControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WatchingDogControl.iml" filepath="$PROJECT_DIR$/WatchingDogControl.iml" />
+    </modules>
+  </component>
+</project>
