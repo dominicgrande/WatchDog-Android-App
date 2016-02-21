@@ -9,10 +9,39 @@
     android:background="#000000"
     tools:context=".MainActivity" >
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="60sp"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"/>
+
     <VideoView
         android:id="@+id/myVideo"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_centerInParent="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="turnRight"
+        android:text="@string/turn_right"
+        android:id="@+id/button"
+        android:layout_alignBottom="@+id/myVideo"
+        android:layout_alignEnd="@+id/myVideo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="turnLeft"
+        android:text="@string/turn_left"
+        android:layout_alignBottom="@+id/myVideo"
+        android:layout_toStartOf="@+id/button"
+        android:id="@+id/button2" />
+
+
 
 </RelativeLayout>

@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">WatchingDog Control</string>
     <string name="action_settings">Settings</string>
+    <string name="turn_right">Click me to go right!</string>
+    <string name="turn_left">Click me to go left!</string>
 </resources>
