@@ -20,6 +20,9 @@ android {
 }
 
 dependencies {
+    compile('org.eclipse.paho:org.eclipse.paho.android.service:1.0.2') {
+        exclude module: 'support-v4'
+    }
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.getpebble:pebblekit:3.0.0'
@@ -30,5 +33,12 @@ dependencies {
 repositories {
     mavenCentral()
     maven { url "https://oss.sonatype.org/content/groups/public/" }
+    maven {url "https://repo.eclipse.org/content/repositories/paho-releases/"}
+    maven {
+        url "https://repo.eclipse.org/content/repositories/paho-snapshots/"
+    }
 }
 
+dependencies {
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+}
